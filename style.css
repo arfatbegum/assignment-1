@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.profile-card {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;
+}
+
+.occupation {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.contact {
+    font-size: 14px;
+    color: #555;
+}
+
+.contact p {
+    margin: 5px 0;
+}
